@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout youtube</title>
+
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="shortcut icon" href="./images/youtube-logo-png-46027-Windows.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/variable.css">
+    <link rel="stylesheet" href="./src/menu.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="checkbox-hamburguer">
+            <input type="checkbox" id="menu-hamburguer">
+
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <ul class="pop-up-menu">
+                <a href="#"><li><i class="fa-solid fa-house"></i>Home</li></a>
+                <a href="#"><li><i class="fa-solid fa-compass"></i>Explore</li></a>
+                <a href="#"><li><i class="fa-solid fa-bolt"></i>Shorts</li></a>
+                <a href="#"><li><i class="fa-solid fa-circle-play"></i>Subscriptions</li></a>
+            </ul>
+        </div>
+
+        <a href="index.html" class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <h2>Youtube</h2>
+        </a>
+
+        <div class="search">
+            <input class="pesquisar" name="search-query" placeholder="Pesquisar">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <nav>   
+
+            <ul class="icons-header">
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-video"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-table-cells"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-bell"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-circle-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="video-destaque">
+                <img src="./images/seis-a-um-logo.png" alt="placeholder para video destaque">
+
+                <div class="informacoes">
+                    <h1 class="titulo">NOTÍCIAS: DANIEL RENOVA CONTRATO, RAFA SILVA, PEDRÃO, MATEUS SILVA, KAIKI E
+                        RONALDO EMOCIONADO</h1>
+
+                    <p class="visualizacoes">18 mil visualizações</p>
+
+                    <p>Giro de notícias sobre o Cruzeiro. Fim da novela envolvendo a renovação de contrato de Daniel
+                        Junior e o meia assina vínculo até dezembro de 2025. Enquanto isso o time segue se preparando
+                        para o jogo contra o Criciúma, sem Rafa Silva, que ficou em BH aprimorando o condicionamento
+                        físico e prevenindo lesões. Faz sentido esse cuidado todo da comissão técnica? O garoto Pedrão,
+                        de 18 anos, é a novidade na lista, desbancando nomes mais rodados como Weverton e Mateus Silva,
+                        este último que parece mesmo fora dos planos. Lateral esquerdo Kaiki também viaja, indicando que
+                        Pezzolano pode mudar o esquema tático e Ronaldo se emociona com torcedores do clube, enquanto
+                        faz apelo pelo fim das músicas preconceituosas. Confira em detalhes no vídeo e comente.</p>
+                </div>
+            </div>
+
+            <div class="propaganda">
+                <a href="#">
+                 <img src="./images/ad.jpg" alt="placeholder para propaganda">
+                </a>
+            </div>
+
+            <div class="videos-sugeridos">
+                <div class="video">
+                    <a href="#">
+                        <img src="./images/casimiro.webp" alt="placeholder para videos videos sugeridos">
+                    </a>
+
+                    <div class="informacoes">
+                        <h2 class="titulo">CASIMIRO REAGE: FARID ENLOUQUECEU APÓS EMPATE DO GRÊMIO</h2>
+                        <div class="outrasinfos">
+                            <p>Cortes do Casimito [OFICIAL]</p>
+
+                            <p>165 mil visualizações</p>
+
+                            <p>Há 7 dias</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <a href="#">
+                        <img src="./images/ciro.wepb.webp" alt="placeholder para videos videos sugeridos">
+                    </a>
+
+                    <div class="informacoes">
+                        <h2 class="titulo">CIRO "DEBATE" COM GREGÓRIO DUVIVIER</h2>
+
+                        <div class="outrasinfos">
+                            <p>Meteoro Brasil</p>
+
+                            <p>543 mil visualizações</p>
+
+                            <p>Há 5 dias</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <a href="#">
+                        <img src="./images/topgun.webp" alt="placeholder para videos videos sugeridos">
+                    </a>
+
+                    <div class="informacoes">
+                        <h2 class="titulo">Top Gun: Tudo que você precisa saber"</h2>
+
+                        <div class="outrasinfos">
+
+                            <p>Jovem Nerd</p>
+
+                            <p>152 mil visualizações</p>
+
+                            <p>Há 1 dia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <a href="#">
+                        <img src="./images/pokemon.webp" alt="placeholder para videos videos sugeridos">
+                    </a>
+
+                    <div class="informacoes">
+                        <h2 class="titulo">Como transferir pokémon no Pokémon Home | Pokémon</h2>
+
+                        <div class="outrasinfos">
+                            <p>DIGPLAY</p>
+
+                            <p>3,3 mil visualizações</p>
+
+                            <p>Há 8 dias</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <a href="#">
+                        <img src="./images/mix-seis-a-um.jpg" alt="placeholder para videos videos sugeridos">
+                    </a>
+
+                    <div class="informacoes">
+                        <h2 class="titulo">Mix de Seis a Um</h2>
+
+                        <div class="outrasinfos">
+                            <p>Seis a Um</p>
+
+                            <p>23 mil visualizações</p>
+
+                            <p>Há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+</body>
+
+</html>
