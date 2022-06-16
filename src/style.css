@@ -28,12 +28,12 @@ html{
 }
 
 .video-destaque .informacoes .titulo{
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 7px;
 }
 
 .video-destaque .informacoes .visualizacoes{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 9px;
 }
@@ -66,7 +66,7 @@ html{
 }
 
 .videos-sugeridos .video .titulo{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 7px;
 }
@@ -78,14 +78,14 @@ html{
 
 .videos-sugeridos .video .informacoes p{
     margin-bottom: 5px;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
 .videos-sugeridos .video .informacoes .outrasinfos{
     display: flex;
     flex-direction: column;
-    margin-top: auto;
+    margin-top: 0;
 }
 
 @media(max-width: 1024px){
@@ -105,8 +105,22 @@ html{
     }
 
     .propaganda{
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
+    }
+}
+
+@media(max-width: 425px){
+    .container{
+        padding: 0px 0px 25px 0;
+    }
+
+    .video-destaque .informacoes{
+        padding: 0 20px;
+    }
+
+    .videos-sugeridos .video .informacoes p{
+        font-size: 1.1rem;
     }
 }
 
